@@ -1,0 +1,27 @@
+.dizayn_cards {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "card1 card2"
+    "card3 card4";
+}
+
+.card1 {
+  grid-area: "card1";
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.card2 {
+  grid-area: "card2";
+}
+.card3 {
+  grid-area: "card3";
+}
+.card4 {
+  grid-area: "card4";
+}
+.card5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
